@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisata Edukasi</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-list">
+              <li><a href="index.html">Home</a></li>
+              <li class="dropdown">
+                <a href="#">Wisata</a>
+                <div class="dropdown-content">
+                        <a href="wisata_edukasi.html">Wisata Edukasi</a>
+                        <a href="wisata_religi.html">Wisata Religi</a>
+                    </div>
+                </li>
+                <li><a href="kuliner.html">Kuliner</a></li>
+            </ul>
+        </nav>   
+    </header>
+
+    <main>
+        <h1>Wisata Edukasi</h1>
+        <div class="wisata-container">
+            <article class="wisata-box" onclick="goToFullArticle('benteng-vastenburg.html')">
+                <img src="image/Benteng-Vastenburg.jpg" alt="Taman Nasional Bromo">
+                <h2>Benteng Vastenburg</h2>
+                <p>Benteng Vastenburg adalah sebuah situs sejarah yang kaya akan cerita dan nilai edukasi. Dengan arsitektur yang megah, tempat ini memberikan pengunjung wawasan tentang masa lalu.</p>
+              </article>
+          
+              <article class="wisata-box" onclick="goToFullArticle('solo-safari.html')">
+                <img src="image/solo-safari.jpg" alt="Gunung Rinjani">
+                <h2>Solo Safari</h2>
+                <p>Solo Safari merupakan destinasi edukasi yang memadukan hiburan dan pembelajaran. Pengunjung dapat belajar tentang berbagai jenis hewan dan ekosistem mereka.</p>
+              </article>
+          
+              <article class="wisata-box" onclick="goToFullArticle('museum-lokanata.html')">
+                <img src="image/museum-lokanata.jpg" alt="Raja Ampat">
+                <h2>Museum Lokanata</h2>
+                <p>Museum Lokanata menyajikan koleksi seni dan budaya yang memperkaya pengetahuan pengunjung. Dengan pameran yang beragam, tempat ini menjadi sumber inspirasi seni dan sejarah.</p>
+              </article>
+          
+              <article class="wisata-box" onclick="goToFullArticle('museum-sangiran.html')">
+                <img src="image/museum-sangiran.jpg" alt="Pulau Komodo">
+                <h2>Museum Sangiran</h2>
+                <p>Museum Sangiran adalah tempat yang memamerkan peninggalan fosil manusia purba. Pengunjung dapat menyaksikan jejak evolusi manusia dan memahami lebih dalam sejarah manusia di Indonesia.</p>
+              </article>
+            </div>    
+      </main>
+
+      <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Kota Solo. All rights reserved.</p>
+        </div>
+      </footer>
+
+      <script src="js/script.js"></script>
+</body>
+
+
+</html>

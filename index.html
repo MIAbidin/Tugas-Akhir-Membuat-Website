@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kota Solo</title>
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+    <header>
+        <div class="jumbotron">
+            <h1>Kota Solo</h1>
+            <h2>The Spirit Of Java</h2>
+        </div>
+        <nav class="navbar">
+            <ul class="nav-list">
+              <li><a href="index.html">Home</a></li>
+              <li class="dropdown">
+                <a href="#">Wisata</a>
+                <div class="dropdown-content">
+                        <a href="wisata_edukasi.html">Wisata Edukasi</a>
+                        <a href="wisata_religi.html">Wisata Religi</a>
+                    </div>
+                </li>
+                <li><a href="kuliner.html">Kuliner</a></li>
+            </ul>
+        </nav>  
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="slider">
+                <div class="imgslide fade">
+                    <img src="image/keraton-2.jpg" alt="">
+                    <div class="text">Keraton</div>
+                </div>
+
+                <div class="imgslide fade">
+                    <img src="image/Puri-Mangkunegaran.jpg" alt="">
+                    <div class="text">Puri Mangkunegaran</div>
+                </div>
+
+                <div class="imgslide fade">
+                    <img src="image/keris.jpg" alt="">-
+                    <div class="text">Tugu Keris</div>
+                </div>
+
+                <div class="imgslide fade">
+                    <img src="image/flyer-ke-solo-aja-website.jpeg" alt="">
+                    <div class="text">Ayo Ke Solo</div>
+                </div>
+
+                <a class="prev" onClick="nextslide(-1)">&#10094;</a>
+                <a class="next" onClick="nextslide(1)">&#10095;</a>
+                <div class="page">
+                    <span class="dot" onClick="dotslide(1)"></span>
+                    <span class="dot" onClick="dotslide(2)"></span>
+                    <span class="dot" onClick="dotslide(3)"></span>
+                    <span class="dot" onClick="dotslide(3)"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div id="content-home">
+                <article class="article">
+                    <h1>SEKILAS TENTANG SOLO</h1>
+                    <p>Sebelum berkunjung ke Solo, beberapa informasi tentang Kota Solo</p>
+                    <h4>Di mana Solo berada?</h4>
+                    <p> Kota Solo berlokasi di Indonesia tepatnya di Provinsi Jawa Tengah, dari Jakarta atau Bali dapat ditempuh selama satu jam, dari Kuala Lumpur selama dua jam, dari Singapura selama satu setengah jam melalui perjalanan udara atau bisa juga
+                        melalui perjalanan darat via kereta api selama 8 jam dari Jakarta. Akses ke Solo dapat dijangkau dari Yogyakarta selama 1 jam dengan kereta api.</p>
+                    <h4>Konektivitas</h4>
+                    <p>Solo memiliki gerbang internasional dan dapat diakses langsung dari Kuala Lumpur dan Singapura. Selain itu dapat pula diakses langsung dari Jakarta atau Bali melalui Yogyakarta.</p>
+                    <h4>Penduduk</h4>
+                    <p>Populasi penduduk Kota Solo 563.814 jiwa (data Dispendukcapil tahun 2018) di mana penduduk Solo dikenal kental dengan budaya Jawa dan menjadi salah satu pusat pengembangan tradisi Jawa. Kejayaan Solo berlangsung sejak abad ke-19 mendorong
+                        perkembangan sastra Jawa, kuliner, fashion, arsitektur dan berbagai budaya lainnya.</p>
+                    <h4>Bahasa</h4>
+                    <p>Bahasa yang digunakan di Kota Solo menggunakan dialek Jawa Mataraman (Jawa Tengah). Dialek ini juga digunakan di wilayah Yogyakarta, Magelang, Semarang, Pati, Madiun hingga sebagian wilayah Kediri. Namun dialek wilayah Solo terkenal dengan
+                        dialek yang lebih halus dalam penggunaan kata-kata di percakapan sehari-hari. Bahasa resmi yang digunakan di Kota Solo menggunakan bahasa Indonesia.
+                    </p>
+                    <h4>Iklim</h4>
+                    <p>Solo berada di wilayah iklim ekuatorial, hangat dan lembab sepanjang tahun. Temperatur udara rata-rata 28 oC dengan curah hujan dengan intensitas cukup selama musim hujan pada bulan Desember hingga Maret.</p>
+                </article>
+            </div>
+    
+            <aside>
+                <div class="profile">
+                    <img src="image/profile.png" alt="Profile Picture">
+                    <div class="profile-info">
+                        <h4>Muhammad Irfan Abidin</h4>
+                        <p><img src="image/email.png" alt="Email Icon">muhammadirfanabidin@gmail.com</p>
+                        <p><img src="image/lokasi.png" alt="Location Icon">Surakarta</p>
+                    </div>
+                    
+                </div>
+            </aside>
+        </div>
+        
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Kota Solo. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+
+</html>
